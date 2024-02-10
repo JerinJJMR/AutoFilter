@@ -276,7 +276,7 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
 <b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/JeRiNJJ">𝐉𝐄𝐑𝐈𝐍</a>
-🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/+utvoBco0K8YwYWQ1">𝗠𝗥 ~ 𝗢𝗧𝗧 & 𝗛𝗗 𝗠𝗢𝗩𝗜𝗘𝗭</a>
+🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/+utvoBco0K8YwYWQ1">𝗠𝗥 ~ 𝗢𝗧𝗧 & 𝗛𝗗</a>
 🔰 Gʀᴏᴜᴘ : <a href="https://t.me/+UZZ61cb1twtkZDJl">𝗠𝗥 ~ 𝗦𝗲𝗮𝗿𝗰𝗛 🔎</a></b>"""
     
     IMDB_TEMPLATE_TXT = """
