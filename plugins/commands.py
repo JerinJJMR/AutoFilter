@@ -415,15 +415,15 @@ async def start(client, message):
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
                 except:
                     return
-            await msg.edit_caption(f_caption)
-            btn = [[
-                InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
-            ]]
-            k = await msg.reply("❗️❗️❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️️❗️❗️\n\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🔰 Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs.</b>\n\n<b>➸ Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ/Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ.</b>",quote=True)
-            await asyncio.sleep(600)
-            await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
-            return
+            #await msg.edit_caption(f_caption)
+            #btn = [[
+                #InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+            #]]
+            #k = await msg.reply("❗️❗️❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️️❗️❗️\n\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🔰 Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs.</b>\n\n<b>➸ Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ/Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ.</b>",quote=True)
+            #await asyncio.sleep(600)
+            #await msg.delete()
+            #await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+            #return
         except:
             pass
         return await message.reply('No such file exist.')
@@ -463,14 +463,14 @@ async def start(client, message):
             ]
         )
     )
-    btn = [[
-        InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
-    ]]
-    k = await msg.reply("❗️❗️❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️️❗️❗️\n\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🔰 Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs.</b>\n\n<b>➸ Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ/Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ.</b>",quote=True)
-    await asyncio.sleep(600)
-    await msg.delete()
-    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
-    return   
+    #btn = [[
+        #InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+    #]]
+    #k = await msg.reply("❗️❗️❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️️❗️❗️\n\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ/Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🔰 Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs.</b>\n\n<b>➸ Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ/Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ.</b>",quote=True)
+    #await asyncio.sleep(600)
+    #await msg.delete()
+    #await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+    #return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
