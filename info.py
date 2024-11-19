@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '11972869'))
+API_HASH = environ.get('API_HASH', '2e5540a32783b9bd7b10a18cef9b1889')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6608787211:AAGYFAbeqzSr16JqshsBSpOpIq3MMsBYmNI")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 99999))
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://JerinJJ:JerinJJ2023@cluster0.dxqpwm8.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "JerinJJ")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'JerinJJ_Status')
 
@@ -58,12 +58,12 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviezrockerz1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+utvoBco0K8YwYWQ1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UZZ61cb1twtkZDJl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+QcL0rbP7Ug9kOTdl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MoVieZ_RoCkErZ_bot')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𝐉𝐄𝐑𝐈𝐍')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001909782773'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
