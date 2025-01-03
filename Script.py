@@ -275,7 +275,7 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
 📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
-<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/JeRiNJJ">𝙅𝙀𝙍𝙄𝙉𝙅𝙅</a>
+<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/moviezrockerz1">𝓜𝓡 - 2022</a>
 🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/+IWL58Zsc0a9iNmJl">𝗠𝗥 ~ 𝗢𝗧𝗧 & 𝗛𝗗</a>
 🔰 Gʀᴏᴜᴘ : <a href="https://t.me/+MXWmqyOg6Kw2YTM1">𝗠𝗥 ~ 𝗦𝗲𝗮𝗿𝗰𝗛 🔎</a></b>"""
     
