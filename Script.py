@@ -277,7 +277,7 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
 <b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/moviezrockerz1">𝓜𝓡 - 2022</a>
 🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/+Mu_SAkA5wvwxNjg1">𝗠𝗥 ~ 𝗢𝗧𝗧 & 𝗛𝗗</a>
-🔰 Gʀᴏᴜᴘ : <a href="https://t.me/+MXWmqyOg6Kw2YTM1">𝗠𝗥 ~ 𝗦𝗲𝗮𝗿𝗰𝗛 🔎</a></b>"""
+🔰 Gʀᴏᴜᴘ : <a href="https://t.me/+V40RqxmKQH40NjVl">𝗠𝗥 ~ 𝗦𝗲𝗮𝗿𝗰𝗛 🔎</a></b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
